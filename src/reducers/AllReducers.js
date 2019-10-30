@@ -5,12 +5,13 @@ import ChangeLanguageReducer from './ChangeLanguageReducer'
 import AuthReducer from './AuthReducer'
 import MessagesReducer from './MessagesReducer'
 
+
 const AllReducers = combineReducers({
     form: formReducer,
     typing: TypingReducer,
     lang: ChangeLanguageReducer,
     auth: AuthReducer,
-    messages: MessagesReducer
+    messages: MessagesReducer,
 })
 
 export default AllReducers

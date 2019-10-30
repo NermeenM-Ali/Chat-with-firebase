@@ -1,4 +1,6 @@
 apply plugin: "com.android.application"
+//apply plugin: "com.google.firebase.firebase-perf"
+//apply plugin: 'io.fabric'
 
 import com.android.build.OutputFile
 
@@ -165,12 +167,13 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-fs')
+    implementation project(':react-native-push-notification')
     implementation project(':react-native-image-picker')
     implementation project(':rn-fetch-blob')
     implementation project(':react-native-toasty')
     implementation project(':react-native-image-crop-picker')
     implementation project(':react-native-localization')
-    implementation project(':react-native-push-notification')
     implementation project(':react-native-firebase')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-navigation')
@@ -188,6 +191,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.0.1'
     implementation "com.google.firebase:firebase-database:16.0.4"
     implementation "com.google.firebase:firebase-storage:16.0.1"
+    implementation "com.google.firebase:firebase-functions:16.1.2"
     // Cloud Messaging / FCM
     implementation "com.google.firebase:firebase-messaging:17.3.4"
     implementation 'me.leolin:ShortcutBadger:1.1.21@aar' // <-- Ad

@@ -3,12 +3,13 @@ package com.chat;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnfs.RNFSPackage;
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import ui.toasty.RNToastyPackage;
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
 import com.babisoft.ReactNativeLocalization.ReactNativeLocalizationPackage;
-import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactNativeHost;
@@ -28,6 +29,7 @@ import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
 import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
 import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
+import io.invertase.firebase.functions.RNFirebaseFunctionsPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -57,12 +59,13 @@ public class MainApplication extends NavigationApplication {
         return Arrays.<ReactPackage>asList(
             // eg. new VectorIconsPackage()
             new MainReactPackage(),
+            new RNFSPackage(),
+            new ReactNativePushNotificationPackage(),
             new ImagePickerPackage(),
             new RNFetchBlobPackage(),
             new RNToastyPackage(),
             new PickerPackage(),
             new ReactNativeLocalizationPackage(),
-            new ReactNativePushNotificationPackage(),
             new RNFirebasePackage(),
             new VectorIconsPackage(),
             new RNFirebaseMessagingPackage(),
@@ -71,7 +74,8 @@ public class MainApplication extends NavigationApplication {
             new RNFirebaseAuthPackage(),
             new RNFirebaseDatabasePackage(),
             new RNFirebaseStoragePackage(),
-            new RNFirebaseAnalyticsPackage()
+            new RNFirebaseAnalyticsPackage(),
+            new RNFirebaseFunctionsPackage()
         );
     }
 
@@ -80,7 +84,37 @@ public class MainApplication extends NavigationApplication {
         return getPackages();
     }
 
+////////////////////
+
+ 
 }
+
+/*
+ @Override
+  public void onCreate() {
+    super.onCreate();
+    SoLoader.init(this, /* native exopackage */// false);
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*public class MainApplication extends Application implements ReactApplication {

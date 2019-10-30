@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
+import {PushNotificationIOS} from 'react-native'
 import { Navigation } from 'react-native-navigation'
+import PushNotification from 'react-native-push-notification'
 import { Provider } from "react-redux"
 import firebase from 'react-native-firebase'
 import store from '../store'
@@ -24,7 +26,7 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-
+  
 
 // HOC 
 function reduxStoreWrapper (MyComponent, store) {

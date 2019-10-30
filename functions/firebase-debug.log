@@ -1,0 +1,298 @@
+[debug] [2019-10-30T01:48:04.658Z] ----------------------------------------------------------------------
+[debug] [2019-10-30T01:48:04.660Z] Command:       D:\Sources\node.exe C:\Users\Nermeen_PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-10-30T01:48:04.660Z] CLI Version:   7.6.2
+[debug] [2019-10-30T01:48:04.660Z] Platform:      win32
+[debug] [2019-10-30T01:48:04.660Z] Node Version:  v8.12.0
+[debug] [2019-10-30T01:48:04.661Z] Time:          Wed Oct 30 2019 03:48:04 GMT+0200 (Egypt Standard Time)
+[debug] [2019-10-30T01:48:04.661Z] ----------------------------------------------------------------------
+[debug] [2019-10-30T01:48:04.661Z] 
+[debug] [2019-10-30T01:48:04.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-30T01:48:04.669Z] > authorizing via signed-in user
+[debug] [2019-10-30T01:48:04.669Z] [iam] checking project rnchat-ac6bd for permissions ["firebase.projects.get"]
+[debug] [2019-10-30T01:48:04.671Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-30T01:48:04.671Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-30T01:48:05.043Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-30T01:48:05.090Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/rnchat-ac6bd:testIamPermissions  
+
+[debug] [2019-10-30T01:48:06.183Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-30T01:48:06.184Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/rnchat-ac6bd  
+ 
+[debug] [2019-10-30T01:48:06.692Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Nermeen_PC\Chat'...
+[info] 
+[info] +  functions: Using node@8 from host.
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\Nermeen_PC\Chat\functions" for Cloud Functions...
+[debug] [2019-10-30T01:48:08.230Z] [worker-~diagnostic~-563cd136-0a99-4fc9-bde4-939148db78de]: BUSY
+[debug] [2019-10-30T01:48:08.828Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T01:48:08.829Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T01:48:08.833Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T01:48:08.835Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T01:48:08.837Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] i  functions[isTyping]: function ignored because the database emulator does not exist or is not running.
+[debug] [2019-10-30T01:48:08.933Z] [worker-~diagnostic~-563cd136-0a99-4fc9-bde4-939148db78de]: exited
+[debug] [2019-10-30T01:48:08.933Z] [worker-~diagnostic~-563cd136-0a99-4fc9-bde4-939148db78de]: FINISHED
+[debug] [2019-10-30T02:09:42.535Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T02:09:43.541Z] [worker-~diagnostic~-f9b0e9d6-2f34-44d3-b6ad-c1b81ca6d6a3]: BUSY
+[debug] [2019-10-30T02:09:44.164Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T02:09:44.167Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T02:09:44.171Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T02:09:44.174Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:09:44.175Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:09:44.789Z] [worker-~diagnostic~-f9b0e9d6-2f34-44d3-b6ad-c1b81ca6d6a3]: exited
+[debug] [2019-10-30T02:09:44.789Z] [worker-~diagnostic~-f9b0e9d6-2f34-44d3-b6ad-c1b81ca6d6a3]: FINISHED
+[debug] [2019-10-30T02:10:00.760Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T02:10:01.767Z] [worker-~diagnostic~-eadc61f9-0ea6-46f9-9d3c-113e5fbf615e]: BUSY
+[debug] [2019-10-30T02:10:02.333Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T02:10:02.335Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T02:10:02.339Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T02:10:02.341Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:10:02.342Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:10:02.432Z] [worker-~diagnostic~-eadc61f9-0ea6-46f9-9d3c-113e5fbf615e]: exited
+[debug] [2019-10-30T02:10:02.432Z] [worker-~diagnostic~-eadc61f9-0ea6-46f9-9d3c-113e5fbf615e]: FINISHED
+[debug] [2019-10-30T02:11:21.133Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T02:11:22.139Z] [worker-~diagnostic~-a8f6addf-38ec-4339-bc88-45cf75a143bd]: BUSY
+[debug] [2019-10-30T02:11:22.722Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T02:11:22.724Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T02:11:22.728Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T02:11:22.729Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:11:22.731Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:11:22.826Z] [worker-~diagnostic~-a8f6addf-38ec-4339-bc88-45cf75a143bd]: exited
+[debug] [2019-10-30T02:11:22.826Z] [worker-~diagnostic~-a8f6addf-38ec-4339-bc88-45cf75a143bd]: FINISHED
+[debug] [2019-10-30T02:59:13.062Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T02:59:14.074Z] [worker-~diagnostic~-cc71fad3-158d-4b42-a09a-0307b831e8b7]: BUSY
+[debug] [2019-10-30T02:59:14.918Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T02:59:14.920Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T02:59:14.925Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T02:59:14.928Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T02:59:14.929Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] i  functions[sendNotification]: function ignored because the database emulator does not exist or is not running.
+[debug] [2019-10-30T02:59:15.143Z] [worker-~diagnostic~-cc71fad3-158d-4b42-a09a-0307b831e8b7]: exited
+[debug] [2019-10-30T02:59:15.143Z] [worker-~diagnostic~-cc71fad3-158d-4b42-a09a-0307b831e8b7]: FINISHED
+[debug] [2019-10-30T03:00:51.897Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:00:52.902Z] [worker-~diagnostic~-115cf102-fb52-4f5a-8d4f-206137ef6add]: BUSY
+[debug] [2019-10-30T03:00:53.793Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:00:53.795Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:00:53.799Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:00:53.802Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:00:53.803Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:00:53.912Z] [worker-~diagnostic~-115cf102-fb52-4f5a-8d4f-206137ef6add]: exited
+[debug] [2019-10-30T03:00:53.912Z] [worker-~diagnostic~-115cf102-fb52-4f5a-8d4f-206137ef6add]: FINISHED
+[debug] [2019-10-30T03:02:08.339Z] File C:\Users\Nermeen_PC\Chat\functions\package.json.378678828 changed, reloading triggers
+[debug] [2019-10-30T03:02:08.372Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:02:09.379Z] [worker-~diagnostic~-c09c85c0-cc3f-4fbc-ac20-3474a05df155]: BUSY
+[debug] [2019-10-30T03:02:10.202Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:02:10.206Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:02:10.211Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:02:10.214Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:02:10.216Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:02:10.370Z] [worker-~diagnostic~-c09c85c0-cc3f-4fbc-ac20-3474a05df155]: exited
+[debug] [2019-10-30T03:02:10.370Z] [worker-~diagnostic~-c09c85c0-cc3f-4fbc-ac20-3474a05df155]: FINISHED
+[debug] [2019-10-30T03:09:03.405Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:09:04.411Z] [worker-~diagnostic~-98bb6a8f-f253-4b22-9edb-f088d9d63643]: BUSY
+[debug] [2019-10-30T03:09:04.962Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:09:04.964Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:09:04.968Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:09:04.970Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:09:04.971Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:09:05.065Z] [worker-~diagnostic~-98bb6a8f-f253-4b22-9edb-f088d9d63643]: exited
+[debug] [2019-10-30T03:09:05.065Z] [worker-~diagnostic~-98bb6a8f-f253-4b22-9edb-f088d9d63643]: FINISHED
+[debug] [2019-10-30T03:10:00.443Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:10:01.448Z] [worker-~diagnostic~-3ab9255a-4367-4a71-8a5b-c394b67f957c]: BUSY
+[debug] [2019-10-30T03:10:02.038Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:10:02.041Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:10:02.047Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:10:02.049Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:02.050Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:02.146Z] [worker-~diagnostic~-3ab9255a-4367-4a71-8a5b-c394b67f957c]: exited
+[debug] [2019-10-30T03:10:02.146Z] [worker-~diagnostic~-3ab9255a-4367-4a71-8a5b-c394b67f957c]: FINISHED
+[debug] [2019-10-30T03:10:02.793Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:10:03.798Z] [worker-~diagnostic~-b13048b8-0f3c-45dc-88ca-2b08528d6bb3]: BUSY
+[debug] [2019-10-30T03:10:04.435Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:10:04.438Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:10:04.443Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:10:04.446Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:04.447Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:04.548Z] [worker-~diagnostic~-b13048b8-0f3c-45dc-88ca-2b08528d6bb3]: exited
+[debug] [2019-10-30T03:10:04.548Z] [worker-~diagnostic~-b13048b8-0f3c-45dc-88ca-2b08528d6bb3]: FINISHED
+[debug] [2019-10-30T03:10:30.418Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:10:31.424Z] [worker-~diagnostic~-1e948bb8-857b-4750-ad8d-2c2d581118dc]: BUSY
+[debug] [2019-10-30T03:10:32.599Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:10:32.602Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:10:32.607Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:10:32.611Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:32.613Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:10:32.804Z] [worker-~diagnostic~-1e948bb8-857b-4750-ad8d-2c2d581118dc]: exited
+[debug] [2019-10-30T03:10:32.804Z] [worker-~diagnostic~-1e948bb8-857b-4750-ad8d-2c2d581118dc]: FINISHED
+[debug] [2019-10-30T03:12:20.832Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:12:21.838Z] [worker-~diagnostic~-b50b1aad-7dcd-4d54-b74d-1030b1c4f2cf]: BUSY
+[debug] [2019-10-30T03:12:22.773Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:12:22.777Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:12:22.782Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:12:22.784Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:12:22.786Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:12:22.934Z] [worker-~diagnostic~-b50b1aad-7dcd-4d54-b74d-1030b1c4f2cf]: exited
+[debug] [2019-10-30T03:12:22.934Z] [worker-~diagnostic~-b50b1aad-7dcd-4d54-b74d-1030b1c4f2cf]: FINISHED
+[debug] [2019-10-30T03:14:13.825Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:14:14.833Z] [worker-~diagnostic~-2d211437-60c0-46be-afa0-e0930c46dcb8]: BUSY
+[debug] [2019-10-30T03:14:15.821Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:14:15.824Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:14:15.828Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:14:15.830Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:14:15.832Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:14:15.954Z] [worker-~diagnostic~-2d211437-60c0-46be-afa0-e0930c46dcb8]: exited
+[debug] [2019-10-30T03:14:15.954Z] [worker-~diagnostic~-2d211437-60c0-46be-afa0-e0930c46dcb8]: FINISHED
+[debug] [2019-10-30T03:14:34.623Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:14:35.628Z] [worker-~diagnostic~-607e4765-1606-4d56-b344-6cfdc6e6de95]: BUSY
+[debug] [2019-10-30T03:14:36.510Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:14:36.515Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:14:36.525Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:14:36.532Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:14:36.534Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:14:36.696Z] [worker-~diagnostic~-607e4765-1606-4d56-b344-6cfdc6e6de95]: exited
+[debug] [2019-10-30T03:14:36.696Z] [worker-~diagnostic~-607e4765-1606-4d56-b344-6cfdc6e6de95]: FINISHED
+[debug] [2019-10-30T03:18:13.886Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:18:14.892Z] [worker-~diagnostic~-a38f6a10-45de-4d7a-bed8-ca294b074c25]: BUSY
+[debug] [2019-10-30T03:18:16.145Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:18:16.149Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:18:16.154Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:18:16.158Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:16.159Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:16.309Z] [worker-~diagnostic~-a38f6a10-45de-4d7a-bed8-ca294b074c25]: exited
+[debug] [2019-10-30T03:18:16.309Z] [worker-~diagnostic~-a38f6a10-45de-4d7a-bed8-ca294b074c25]: FINISHED
+[debug] [2019-10-30T03:18:35.473Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:18:36.510Z] [worker-~diagnostic~-78b91253-b523-45b9-8c08-3373ec7e1b15]: BUSY
+[debug] [2019-10-30T03:18:36.732Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:18:37.202Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:18:37.205Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:18:37.214Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:18:37.218Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:37.220Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:37.398Z] [worker-~diagnostic~-78b91253-b523-45b9-8c08-3373ec7e1b15]: exited
+[debug] [2019-10-30T03:18:37.398Z] [worker-~diagnostic~-78b91253-b523-45b9-8c08-3373ec7e1b15]: FINISHED
+[debug] [2019-10-30T03:18:37.735Z] [worker-~diagnostic~-b21eb295-2f26-449f-b48b-2606e3d167bc]: BUSY
+[debug] [2019-10-30T03:18:38.751Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:18:38.756Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:18:38.764Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:18:38.769Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:38.771Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:18:38.948Z] [worker-~diagnostic~-b21eb295-2f26-449f-b48b-2606e3d167bc]: exited
+[debug] [2019-10-30T03:18:38.949Z] [worker-~diagnostic~-b21eb295-2f26-449f-b48b-2606e3d167bc]: FINISHED
+[debug] [2019-10-30T03:21:13.472Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:21:14.480Z] [worker-~diagnostic~-cd3ac2d3-1b23-4906-bde7-bf3e5b812b87]: BUSY
+[debug] [2019-10-30T03:21:15.331Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:21:15.334Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[warn] !  The Cloud Functions directory you specified does not have a "package.json" file, so we can't load it.
+[warn] !  functions:
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2019-10-30T03:21:15.352Z] [worker-~diagnostic~-cd3ac2d3-1b23-4906-bde7-bf3e5b812b87]: exited
+[debug] [2019-10-30T03:21:15.352Z] [worker-~diagnostic~-cd3ac2d3-1b23-4906-bde7-bf3e5b812b87]: FINISHED
+[debug] [2019-10-30T03:21:33.570Z] File C:\Users\Nermeen_PC\Chat\functions\package.json changed, reloading triggers
+[debug] [2019-10-30T03:21:34.577Z] [worker-~diagnostic~-df814020-7cf8-42ec-a699-d886f89a9e40]: BUSY
+[debug] [2019-10-30T03:21:35.778Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:21:35.782Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:21:35.787Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:21:35.790Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:21:35.792Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:21:35.942Z] [worker-~diagnostic~-df814020-7cf8-42ec-a699-d886f89a9e40]: exited
+[debug] [2019-10-30T03:21:35.942Z] [worker-~diagnostic~-df814020-7cf8-42ec-a699-d886f89a9e40]: FINISHED
+[debug] [2019-10-30T03:32:01.814Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:32:02.819Z] [worker-~diagnostic~-0ec64139-cdaa-4aed-ab10-06116b36e002]: BUSY
+[debug] [2019-10-30T03:32:03.830Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:32:03.835Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:32:03.841Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:32:03.845Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:32:03.850Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:32:03.974Z] [worker-~diagnostic~-0ec64139-cdaa-4aed-ab10-06116b36e002]: exited
+[debug] [2019-10-30T03:32:03.974Z] [worker-~diagnostic~-0ec64139-cdaa-4aed-ab10-06116b36e002]: FINISHED
+[debug] [2019-10-30T03:37:43.569Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:37:44.574Z] [worker-~diagnostic~-1e88d316-42df-440c-b3a3-48540ca11e04]: BUSY
+[debug] [2019-10-30T03:37:45.949Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:37:45.954Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:37:45.959Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:37:45.962Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:37:45.964Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:37:46.125Z] [worker-~diagnostic~-1e88d316-42df-440c-b3a3-48540ca11e04]: exited
+[debug] [2019-10-30T03:37:46.125Z] [worker-~diagnostic~-1e88d316-42df-440c-b3a3-48540ca11e04]: FINISHED
+[debug] [2019-10-30T03:47:45.015Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:47:46.087Z] [worker-~diagnostic~-e132dad7-f7ab-434b-997f-73d1076172d2]: BUSY
+[debug] [2019-10-30T03:47:57.525Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:47:57.528Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:47:57.532Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:47:57.535Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:47:57.536Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:47:57.719Z] [worker-~diagnostic~-e132dad7-f7ab-434b-997f-73d1076172d2]: exited
+[debug] [2019-10-30T03:47:57.776Z] [worker-~diagnostic~-e132dad7-f7ab-434b-997f-73d1076172d2]: FINISHED
+[debug] [2019-10-30T03:49:12.074Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:49:13.124Z] [worker-~diagnostic~-c53f78de-3bb1-4a54-8868-3342cf9bf4d4]: BUSY
+[debug] [2019-10-30T03:49:13.886Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:49:13.889Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:49:13.894Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:49:13.897Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:49:13.898Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:49:14.038Z] [worker-~diagnostic~-c53f78de-3bb1-4a54-8868-3342cf9bf4d4]: exited
+[debug] [2019-10-30T03:49:14.038Z] [worker-~diagnostic~-c53f78de-3bb1-4a54-8868-3342cf9bf4d4]: FINISHED
+[debug] [2019-10-30T03:49:48.493Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:49:49.615Z] [worker-~diagnostic~-2c8800b9-3b88-47a9-9a49-57560782fe92]: BUSY
+[debug] [2019-10-30T03:49:50.520Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:49:50.523Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:49:50.527Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:49:50.529Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:49:50.531Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:49:50.632Z] [worker-~diagnostic~-2c8800b9-3b88-47a9-9a49-57560782fe92]: exited
+[debug] [2019-10-30T03:49:50.632Z] [worker-~diagnostic~-2c8800b9-3b88-47a9-9a49-57560782fe92]: FINISHED
+[debug] [2019-10-30T03:51:26.992Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:51:27.997Z] [worker-~diagnostic~-f5865182-812a-4fde-baaa-0c83feb69a95]: BUSY
+[debug] [2019-10-30T03:51:28.900Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:51:28.904Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:51:28.908Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:51:28.911Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:51:28.913Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:51:29.041Z] [worker-~diagnostic~-f5865182-812a-4fde-baaa-0c83feb69a95]: exited
+[debug] [2019-10-30T03:51:29.042Z] [worker-~diagnostic~-f5865182-812a-4fde-baaa-0c83feb69a95]: FINISHED
+[debug] [2019-10-30T03:51:29.614Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T03:51:30.617Z] [worker-~diagnostic~-5857a923-b1b5-4e65-9c9a-983036115c31]: BUSY
+[debug] [2019-10-30T03:51:31.583Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T03:51:31.587Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T03:51:31.593Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T03:51:31.596Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:51:31.597Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T03:51:31.732Z] [worker-~diagnostic~-5857a923-b1b5-4e65-9c9a-983036115c31]: exited
+[debug] [2019-10-30T03:51:31.732Z] [worker-~diagnostic~-5857a923-b1b5-4e65-9c9a-983036115c31]: FINISHED
+[debug] [2019-10-30T04:13:20.247Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T04:13:21.252Z] [worker-~diagnostic~-8815f5dd-67d2-459b-af94-4033644dc6ea]: BUSY
+[debug] [2019-10-30T04:13:22.450Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T04:13:22.453Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T04:13:22.458Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T04:13:22.461Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T04:13:22.463Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[warn] !  C:\Users\Nermeen_PC\Chat\functions\index.js:51
+  firebase.database().ref('messages').child(event.params.).once('value').then(function(snap) {
+                                                         ^
+
+SyntaxError: Unexpected token )
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Nermeen_PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:709:33
+[warn] !  We were unable to load your functions code. (see above)
+[debug] [2019-10-30T04:13:22.939Z] [worker-~diagnostic~-8815f5dd-67d2-459b-af94-4033644dc6ea]: exited
+[debug] [2019-10-30T04:13:22.939Z] [worker-~diagnostic~-8815f5dd-67d2-459b-af94-4033644dc6ea]: FINISHED
+[debug] [2019-10-30T05:08:06.791Z] File C:\Users\Nermeen_PC\Chat\functions\index.js changed, reloading triggers
+[debug] [2019-10-30T05:08:08.038Z] [worker-~diagnostic~-8eea9acc-26ec-406a-ba79-27f0db4e6d4a]: BUSY
+[debug] [2019-10-30T05:08:17.734Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\Nermeen_PC\\Chat\\functions","node_version":"8.12.0"}
+[debug] [2019-10-30T05:08:17.734Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-30T05:08:17.760Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.1","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-10-30T05:08:17.772Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-10-30T05:08:17.774Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\Nermeen_PC\\Chat\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] i  functions[sendMessageNotification]: function ignored because the database emulator does not exist or is not running.
+[debug] [2019-10-30T05:08:20.814Z] [worker-~diagnostic~-8eea9acc-26ec-406a-ba79-27f0db4e6d4a]: exited
+[debug] [2019-10-30T05:08:20.814Z] [worker-~diagnostic~-8eea9acc-26ec-406a-ba79-27f0db4e6d4a]: FINISHED

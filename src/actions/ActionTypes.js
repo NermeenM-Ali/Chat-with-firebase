@@ -6,6 +6,7 @@ export const LOGIN = 'LOGIN'
 export const LOGOUT = 'LOGOUT'
 export const CHECK_CONNECTION = 'CHECK_CONNECTION'
 export const RESET = 'RESET'
+export const UPLOAD_IMAGE = 'UPLOAD_IMAGE'
 
 
 export const SAVE_DATA = 'SAVE_DATA'

@@ -3,26 +3,27 @@ import firebase from 'react-native-firebase'
 
 
 export const saveMessages= (messages,token)=>{
-    //alert(JSON.stringify(messages))
-    //const currentUser = token
-    //console.log(currentUser)
+
 
     return (dispatch)=>{
 
         firebase.database().ref(`messages`)
         .push(messages).then((msg)=> { //kont b push([...messages]) m4 3rfa eh el fr2
             console.log('message Saved Successfully')
-           // alert(msg)
-           // console.log([...messages])
-          // console.log('saved and start to retrieve')
-                  }).catch((error)=> {
-            console.log(error.message)
+
         })
-        
+        .catch((error)=> {
+            alert(error.message)
+        })
+
+      
     }
 }
 
 
+/*database().ref('messages').onCreate((snapShot, context)=>{
+    alert(context)
+})*/
 
 export const startFetchMessage = (token)=> {
     const currentUser = token

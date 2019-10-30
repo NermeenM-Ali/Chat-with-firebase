@@ -11,6 +11,9 @@ import Strings from '../assets/Strings';
 export const userToken = (token)=> {
     return (dispatch)=>{
         dispatch({ type: types.USER_TOKEN, payload: token})
+       // firebase.database().ref('tokens').push(token).once('value')
+        //.then((res)=>{/*alert('token saved successfully')*/})
+        //.catch((err)=> {alert("err:" + err.message)})
     }
 }
 

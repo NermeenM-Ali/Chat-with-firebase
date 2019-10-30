@@ -3,7 +3,7 @@ import {View, StatusBar, Picker, TouchableOpacity,Keyboard, NetInfo} from 'react
 import {Field, reduxForm} from 'redux-form'
 import { Navigation } from 'react-native-navigation';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import {Button, Thumbnail, Spinner} from 'native-base'
+import {Button, Thumbnail, Icon, Badge} from 'native-base'
 import ImagePicker from 'react-native-image-crop-picker';
 import { RNToasty } from 'react-native-toasty'
 import {changeLanguage} from '../actions/SelectLanguageAction'
@@ -92,11 +92,6 @@ class Login extends Component {
 
     componentDidMount() {
        this.checkConnection()
-       /* NetInfo.addEventListener('connectionChange', ()=> {
-           // this.checkConnection()
-           !this.props.status
-            //this.setState({active: !this.state.active})
-        })*/
     }
 
 
@@ -211,11 +206,12 @@ class Login extends Component {
                 <StatusBar hidden/>
                 <Header headerText={Strings.login} height={hp(9)} userIcon leftComponent/>
                 <View style={{width: wp(80), height: hp(25),marginTop:hp(7), backgroundColor:'white' , alignSelf:'center', alignItems:'center', justifyContent:'center'}}>
-                        
+                            
                    <TouchableOpacity onPress={()=> {this.openGallery()
                                                    this.setState({selecting: true})                     
                                                 }}
                              style={{height:hp(18), width:wp(30), borderRadius:wp(20), backgroundColor:'white', borderWidth:wp(0.2), borderColor:'orange'}}>
+                              
                        {
                            this.state.selecting? 
                            <Thumbnail large style={{height:hp(18), width:wp(30), borderRadius:wp(20)}}
@@ -227,6 +223,9 @@ class Login extends Component {
                             />
                        }
                    </TouchableOpacity> 
+                   <Badge  style={{marginLeft:hp(28),width:wp(8),backgroundColor:'orange' ,borderRadius:wp(5),height:hp(5), marginTop:hp(-5), alignItems:'center', justifyContent:'center'}}>
+                           <Icon name='ios-camera' type='Ionicons' style={{color:'white'}}/>
+                    </Badge>  
 
                    
                                
